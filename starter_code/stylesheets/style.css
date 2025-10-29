@@ -48,9 +48,34 @@ footer links grey: #454245
         height: auto;
     }
 
-    header {
+    .header {
         display: flex;
-
+        flex-direction: column;
+        justify-content: center;
         background-color: #540B51;
+    }
+
+    .header h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        max-width: 300px;
+        flex-wrap: wrap;
+    }
+    
+    .header p {
+        display: flex;
+        justify-content: center;
+        color: white;        
+    }
+
+    .headerButton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .headerImg {
+        display: flex;
+        justify-content: center;
     }
 }
