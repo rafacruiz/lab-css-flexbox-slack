@@ -8,3 +8,49 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 768px) {
+    body {
+        width: 768px;
+        max-width: 768px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar {
+        display: flex;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #540B51;
+        padding: 5px 15px;
+        border: 0;
+    }
+
+    .navbar img {
+        width: 60px;
+        height: auto;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbarAction {
+        background-color: #540B51;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .navbarAction img {
+        width: 18px;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+
+        background-color: #540B51;
+    }
+}
